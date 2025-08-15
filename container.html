@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Container with Tailwind CSS</title>
+  </head>
+  <body>
+    <div>
+      <ul class="flex justify-end bg-red-200 [&>*]:p-4">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="text-7xl bg-amber-500 container mx-auto">Container Class</div>
+    <div class="text-6xl bg-amber-400 container mx-auto">Main Page</div>
+    <div class="text-5xl bg-amber-300 container mx-auto">Down Page</div>
+    <div class="text-6xl bg-amber-400 container mx-auto">Main Page</div>
+  </body>
+</html>
