@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactivity with Tailwind CSS</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold">Interactivity with Tailwind CSS</h1>
+    <button
+      class="bg-blue-500 text-white px-10 py-2 m-5 rounded hover:bg-blue-800 hover:p-10"
+    >
+      Click Me
+    </button>
+    <button
+      class="bg-blue-500 text-white px-10 py-2 m-5 rounded hover:bg-blue-800 hover:p-5"
+    >
+      Click Me
+    </button>
+    <button
+      class="bg-blue-500 text-white px-10 py-2 m-5 rounded focus:bg-red-800 hover:p-5"
+    >
+      Click Me
+    </button>
+    <button
+      class="bg-blue-500 text-white px-10 py-2 m-5 rounded hover:bg-blue-800 focus:bg-red-800 active:bg-yellow-800 hover:p-5"
+    >
+      Click Me
+    </button>
+    <div>
+      <a class="group">
+        <h1 class="group-hover:text-blue-500 group-hover:bg-amber-300 blocked">
+          Heading Click
+        </h1>
+        <p class="group-hover:text-blue-500 group-hover:bg-amber-300">
+          Paragraph Click
+        </p>
+      </a>
+    </div>
+  </body>
+</html>
